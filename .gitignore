@@ -29,7 +29,7 @@ lerna-debug.log*
 pnpm-debug.log*
 
 # Package manager lock files
-package-lock.json
+# (Keep lockfile committed for deterministic builds)
 yarn.lock
 pnpm-lock.yaml
 .pnpm-store/
@@ -234,7 +234,6 @@ dist/
 downloads/
 eggs/
 .eggs/
-lib/
 lib64/
 parts/
 sdist/
@@ -880,7 +879,6 @@ venv.bak/
 
 # Data files
 *.csv
-*.json
 *.xml
 *.parquet
 data/
